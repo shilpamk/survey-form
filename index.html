@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeCampSurvey</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">Code Camp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+    
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age<span class="clue">(Optional)</span></label>
+                <input type="number" name="age" id="number" min="16" max="99" placeholder="Age">
+            </div>
+            <div class="form-group">
+                <p >Which option best describes your current role?</p>
+                <select name="role" id="dropdown">
+                    <option disabled selected value>Select current role</option>
+                    <option value="job">Full time job</option>
+                    <option value="learn">Full time learner</option>
+                    <option value="preferNo">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Would you recommend Code Camp to a friend?</p>
+                <label><input type="radio" name="user-recommend" value="definitely" checked>Definitely</label><br>
+                <label><input type="radio" name="user-recommend" value="maybe">Maybe</label><br>
+                <label><input type="radio" name="user-recommend" value="notSure">Not sure</label><br>
+            </div>
+            
+
+            <div>
+              
+            </div>
+            <div class="form-group">
+                <p>What areas you would like to be improved?<span class="clue">(Check all that apply)</span></p>
+                 <label>
+                     <input type="checkbox" name="prefer" value="front-end projects">
+                     Front-end Projects
+                </label><br>
+
+                <label>
+                    <input type="checkbox" name="prefer" value="back-end projects">Back-end Projects
+                </label><br>
+                <label>
+                    <input type="checkbox" name="prefer" value="data visualisation">Data Visualisation
+                </label><br>
+                <label>
+                    <input type="checkbox" name="prefer" value="videos">Videos
+                </label><br>
+                <label>
+                    <input type="checkbox" name="prefer" value="forum">Forum
+                </label><br>
+                <label>
+                    <input type="checkbox" name="prefer" value="challenges">Challenges
+                </label><br>
+                       
+            </div>
+            <div class="form-group">
+                <p>Any comments or sugestions?</p>
+                <textarea name="comment" id="comments" placeholder="Enter your comment here .."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">Send</button>
+            </div>
+            
+
+    </form>
+    </div>
+</body>
+</html>
