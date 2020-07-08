@@ -40,8 +40,14 @@ header {
     padding: 5px;
 }
 .submit-button {
+    width: 20%;
     margin-left: 40%;
     margin-bottom: 20px;
+    padding: 10px;
+    font-size: large;
+}
+.submit-button:hover {
+    background: rgb(233, 159, 136);
 }
 input:focus {
     border: 3px solid blue;
