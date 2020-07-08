@@ -43,3 +43,6 @@ header {
     margin-left: 40%;
     margin-bottom: 20px;
 }
+input, textarea:focus {
+    border: 3px solid blue;
+}
