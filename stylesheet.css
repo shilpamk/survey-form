@@ -40,12 +40,15 @@ header {
     border-radius: 5px;
     padding: 5px;
 }
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .submit-button {
-    width: 200px;
-    margin-left: 40%;
-    margin-bottom: 20px;
+    width: 150px;
     padding: 10px;
-    font-size: large;
+    font-size: 15px;
     cursor: pointer;
 }
 .submit-button:hover {
