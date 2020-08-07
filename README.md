@@ -8,3 +8,8 @@ Usage and learning from the project: HTML CSS
 * Checkboxes
 * Dropdown
 * Flexbox (To align the button to the center)
+
+TO DO:
+* Add comments what each section is for
+* Tidy up the code
+* Use modern color combination for the look 
