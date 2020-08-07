@@ -46,6 +46,7 @@ header {
     margin-bottom: 20px;
     padding: 10px;
     font-size: large;
+    cursor: pointer;
 }
 .submit-button:hover {
     background: rgb(233, 159, 136);
