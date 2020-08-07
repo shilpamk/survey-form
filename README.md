@@ -1,6 +1,6 @@
-Project: Survey form [ClickHere](https://shilpamk.github.io/survey-form/)
+# Project: Survey form [ClickHere](https://shilpamk.github.io/survey-form/)
 
-Usage and learning from the project: HTML CSS
+## Usage and learning from the project: HTML CSS
 * Form
 * Input 
 * Textarea
@@ -9,7 +9,7 @@ Usage and learning from the project: HTML CSS
 * Dropdown
 * Flexbox (To align the button to the center)
 
-TO DO:
+## TO DO:
 * Add comments what each section is for
 * Tidy up the code
 * Use modern color combination for the look 
