@@ -13,3 +13,4 @@ TO DO:
 * Add comments what each section is for
 * Tidy up the code
 * Use modern color combination for the look 
+* Improve drop down menu with more proper styling
