@@ -15,3 +15,6 @@
 * Tidy up the code
 * Use modern color combination for the look 
 * Improve drop down menu with more proper styling
+
+## Issues to resolve:
+* Animation not showing on chrome browser
