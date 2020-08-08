@@ -58,7 +58,7 @@ header {
     animation-fill-mode: forwards;
 }
 @keyframes bright {
-    100% {
+    0%, 100% {/* Animation has the same starting and ending properties */
         background: greenyellow;
     }
 }
