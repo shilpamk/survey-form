@@ -49,10 +49,10 @@ header {
     width: 150px;
     padding: 10px;
     font-size: 15px;
+    font-weight: bold;
     cursor: pointer;
 }
 .submit-button:hover {
-    
     animation-name: bright;
     animation-duration: 50ms;
     animation-fill-mode: forwards;
