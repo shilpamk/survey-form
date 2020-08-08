@@ -62,6 +62,11 @@ header {
         background: greenyellow;
     }
 }
+@-webkit-keyframes bright {
+    0%, 100% {/* Animation has the same starting and ending properties */
+        background: greenyellow;
+    }
+}
 input:focus {
     border: 2px solid blue;
 }
