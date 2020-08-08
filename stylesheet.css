@@ -59,7 +59,7 @@ header {
 }
 @keyframes bright {
     100% {
-        background-color: greenyellow;
+        background: greenyellow;
     }
 }
 input:focus {
