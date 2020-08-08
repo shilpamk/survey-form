@@ -52,7 +52,15 @@ header {
     cursor: pointer;
 }
 .submit-button:hover {
-    background: rgb(233, 159, 136);
+    
+    animation-name: bright;
+    animation-duration: 50ms;
+    animation-fill-mode: forwards;
+}
+@keyframes bright {
+    100% {
+        background-color: greenyellow;
+    }
 }
 input:focus {
     border: 2px solid blue;

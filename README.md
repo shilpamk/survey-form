@@ -8,6 +8,7 @@
 * Checkboxes
 * Dropdown
 * Flexbox (To align the button to the center)
+* Animation added for button using keyframes
 
 ## TO DO:
 * Add comments what each section is for
