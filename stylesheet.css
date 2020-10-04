@@ -5,13 +5,16 @@ body {
     font-family: sans-serif; 
     background:navy;
     font-weight: 400;
+    background-image: linear-gradient(lightblue, lightgreen);
 }
+
 .container {
     margin: auto;
     max-width: 680px;
-    background: plum;
+    background: navy;
     border-radius: 10px;
     padding: 20px;
+    color: white;
 }
 header {
     text-align: center;
@@ -53,19 +56,7 @@ header {
     cursor: pointer;
 }
 .submit-button:hover {
-    animation-name: bright;
-    animation-duration: 50ms;
-    animation-fill-mode: forwards;
-}
-@keyframes bright {
-    0%, 100% {/* Animation has the same starting and ending properties */
-        background: greenyellow;
-    }
-}
-@-webkit-keyframes bright {
-    0%, 100% {/* Animation has the same starting and ending properties */
-        background: greenyellow;
-    }
+    background: lightgreen;
 }
 input:focus {
     border: 2px solid blue;

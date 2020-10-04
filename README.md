@@ -8,7 +8,7 @@
 * Checkboxes
 * Dropdown
 * Flexbox (To align the button to the center)
-* Animation added for button using keyframes
+* Linear gradient
 
 ## TO DO:
 * Add comments what each section is for
@@ -16,5 +16,3 @@
 * Use modern color combination for the look 
 * Improve drop down menu with more proper styling
 
-## Issues to resolve:
-* Animation not showing on chrome browser
